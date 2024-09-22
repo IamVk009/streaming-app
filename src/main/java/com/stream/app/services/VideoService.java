@@ -8,7 +8,7 @@ import java.util.List;
 public interface VideoService {
 
 //    save Video
-    Video saveVido(Video video, MultipartFile multipartFile);
+    Video saveVideo(Video video, MultipartFile multipartFile);
 //    get Video By Id
     Video getVideoById(String id);
 //    get Video By Title
